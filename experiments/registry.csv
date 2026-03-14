@@ -1,0 +1,3 @@
+run_id,phase,owner,date,objective,dataset,split_protocol,model,config_path,command,status,run_dir,report_path,notes
+phase0_baseline_v1,phase0,TBD,YYYY-MM-DD,baseline reproduction,TBD,TBD,RQ-VAE + decoder,RQ-VAE-Recommender-baseline/configs/TBD.gin,python train_rqvae.py ... && python train_decoder.py ...,planned,experiments/phase0/runs/phase0_baseline_v1,experiments/phase0/reports/baseline_report.md,Fill fields after first successful run
+
