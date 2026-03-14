@@ -1,0 +1,28 @@
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Logs and temp
+*.log
+tmp/
+
+# Baseline runtime artifacts
+RQ-VAE-Recommender-baseline/out/
+RQ-VAE-Recommender-baseline/wandb/
+RQ-VAE-Recommender-baseline/dataset/
+
+# Shared experiment artifacts
+experiments/phase0/runs/*
+!experiments/phase0/runs/.gitkeep
+
+docs/context.md
